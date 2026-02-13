@@ -1,0 +1,5 @@
+- Seasonality in time series: Recurring patterns at fixed intervals (like monthly or yearly), often driven by holidays, climate, or consumer behavior. Recognizing seasonality helps models capture predictable fluctuations.
+- Why split train/test by time: Time series depends on chronological order, so training uses earlier data and testing uses later data. This mirrors real forecasting where future values are predicted from past trends.
+- MAE vs MAPE: MAE (Mean Absolute Error) shows the average error in actual units, useful for scale-specific evaluation. MAPE (Mean Absolute Percentage Error) expresses error as a percentage, making comparisons across datasets easier.
+- When moving average is useful: It smooths short-term noise and highlights long-term trends. Best applied to stable series with limited seasonality or as a baseline forecast.
+- What makes a forecast unreliable: Ignoring seasonality, sudden structural changes, poor preprocessing, or wrong model choice. External shocks or missing data also reduce accuracy.
